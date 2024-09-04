@@ -64,7 +64,7 @@ section {
 #navbar {
   /* border: 1px solid black; */
   position: fixed;
-  /* margin-left: auto; */
+  padding-inline: 3rem;
   top: 1rem;
   z-index: 20;
   width: 100%;
@@ -261,6 +261,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 
   gap: 1rem;
   & h2 {
@@ -363,7 +364,6 @@ section {
 #contact .container {
   width: 45%;
   /* border: 2px solid black; */
-
   display: flex;
   flex-direction: column;
 
@@ -383,6 +383,7 @@ section {
     font-weight: 700;
     line-height: 2.8rem;
     padding: 0.5rem;
+    margin-top: 2rem;
   }
 
   & .box {
@@ -728,6 +729,7 @@ footer .copyright .icon a:hover {
     text-align: center;
   }
   #product .container .box {
+    text-align: start;
     flex-basis: 40%;
   }
   #contact {
